@@ -1,38 +1,58 @@
 .App {
   text-align: center;
+  width: 640px;
+  height: 480px;
+  background: -webkit-radial-gradient(rgb(22, 135, 237), rgb(20, 55, 90));
+  background: radial-gradient(rgb(22, 135, 237), rgb(20, 55, 90));
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  color: snow;
+  margin-top: 0;
+  padding-top: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weather-box {
+  height: 350px;
+  margin: -15px 300px -10px 0;
+  padding-left: 5px;
+  filter: invert(0.95);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.weather-ico {
+  float: left;
+  filter: invert(0.95);
+  width: 220px;
 }
 
-.App-link {
-  color: #61dafb;
+.weather-desc {
+  transform: translate(20px, 240px);
+  font-family: Arial;
+  font-size: 40px;
+  width: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.temp {
+  transform: translate(40px, 340px);
+  font-family: Helvetica;
+  display: block;
+  font-size: 80px;
+}
+
+Calendar {
+  float: right;
+  margin: -30px 100 10px 100;
+}
+
+p {
+  color: snow;
+  background-color: black;
+}
+
+button {
+  background: radial-gradient(rgb(22, 135, 237), rgb(20, 55, 90));;
+  border-color: snpw;
+  font-family: 'Franklin Gothic Medium';
+  color: snow;
+  font-size: 24px;
 }

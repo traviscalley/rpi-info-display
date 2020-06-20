@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-native-community/geolocation": "^2.0.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "apple-icloud": "file:src/packages/apple-icloud",
+    "icloud": "^0.1.0",
     "react": "^16.13.1",
+    "react-calendar": "^3.0.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
